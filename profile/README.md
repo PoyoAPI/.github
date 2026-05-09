@@ -1,5 +1,7 @@
 <p align="center">
-  <img src="./assets/poyo-api-console.svg" alt="PoYo AI - One API for AI model workflows" />
+  <a href="https://poyo.ai">
+    <img src="./assets/poyo-api-console.svg" alt="PoYo AI - One API for AI model workflows" />
+  </a>
 </p>
 
 <p align="center">
@@ -33,7 +35,9 @@ PoYo AI gives developers one production API workflow for image, video, music, ch
 6. Use `callback_url` for production webhooks.
 
 ```bash
-curl -X POST "https://api.poyo.ai/api/generate/submit" \
+export POYO_BASE_URL="https://your-api-base-url"
+
+curl -X POST "$POYO_BASE_URL/api/generate/submit" \
   -H "Authorization: Bearer $POYO_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{
