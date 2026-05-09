@@ -1,47 +1,36 @@
 <p align="center">
-  <a href="https://poyo.ai">
-    <img src="https://storage.poyo.ai/logo.webp" alt="PoYo AI" width="96" />
-  </a>
+  <img src="./assets/poyo-api-console.svg" alt="PoYo AI - One API for AI model workflows" />
 </p>
 
 <p align="center">
-  <a href="https://poyo.ai"><img src="https://img.shields.io/badge/Get%20Started-poyo.ai-111111?style=for-the-badge" alt="Get Started" /></a>
-  <a href="https://docs.poyo.ai"><img src="https://img.shields.io/badge/API%20Docs-docs.poyo.ai-2563eb?style=for-the-badge" alt="API Docs" /></a>
-  <a href="https://poyo.ai/models"><img src="https://img.shields.io/badge/All%20Models-poyo.ai%2Fmodels-16a34a?style=for-the-badge" alt="All Models" /></a>
-  <a href="https://github.com/PoyoAPI/poyo-examples"><img src="https://img.shields.io/badge/Examples-GitHub-0f172a?style=for-the-badge&logo=github" alt="Examples" /></a>
+  <a href="https://poyo.ai"><img src="https://img.shields.io/badge/Start%20building-poyo.ai-84cc16?style=for-the-badge" alt="Start building" /></a>
+  <a href="https://docs.poyo.ai"><img src="https://img.shields.io/badge/API%20docs-docs.poyo.ai-22d3ee?style=for-the-badge" alt="API docs" /></a>
+  <a href="https://poyo.ai/models"><img src="https://img.shields.io/badge/Models-poyo.ai%2Fmodels-a78bfa?style=for-the-badge" alt="Models" /></a>
+  <a href="https://github.com/PoyoAPI/poyo-examples"><img src="https://img.shields.io/badge/Examples-GitHub-111827?style=for-the-badge&logo=github" alt="Examples" /></a>
 </p>
 
-<p align="center">
-  <a href="https://poyo.ai"><img src="https://img.shields.io/badge/Website-poyo.ai-f97316?style=flat-square" alt="Website" /></a>
-  <a href="https://x.com/poyo_ai20351"><img src="https://img.shields.io/badge/X-PoYo%20AI-000000?style=flat-square&logo=x" alt="X" /></a>
-  <a href="mailto:support@poyo.ai"><img src="https://img.shields.io/badge/Email-support%40poyo.ai-64748b?style=flat-square" alt="Email" /></a>
-</p>
+## One API for AI model workflows
 
----
+PoYo AI gives developers one production API workflow for image, video, music, chat, and 3D model generation. Submit a task, keep the `task_id`, poll status during testing, and use webhooks in production.
 
-## One API for AI media models
+## Example model families
 
-PoYo AI helps developers build with image, video, music, chat, and 3D models through one API instead of stitching together provider-by-provider auth, billing, status polling, and webhook logic.
-
-## Model coverage
-
-| Category | Example model families |
+| Category | Families |
 | --- | --- |
-| Chat | GPT · Claude · Gemini |
-| Image | GPT Image · Seedream · Flux · Nano Banana |
-| Video | Sora · Veo · Seedance · Kling · Wan |
-| Music | Suno · MiniMax Music |
-| 3D | Meshy · Tripo |
-
-## Start here
-
-- Website: [https://poyo.ai](https://poyo.ai)
-- Docs: [https://docs.poyo.ai](https://docs.poyo.ai)
-- Models: [https://poyo.ai/models](https://poyo.ai/models)
-- API keys: [https://poyo.ai/dashboard/api-key](https://poyo.ai/dashboard/api-key)
-- Examples: [https://github.com/PoyoAPI/poyo-examples](https://github.com/PoyoAPI/poyo-examples)
+| Chat | ![Claude](https://img.shields.io/badge/Claude-111827?style=flat-square) ![GPT](https://img.shields.io/badge/GPT-0f172a?style=flat-square) ![Gemini](https://img.shields.io/badge/Gemini-2563eb?style=flat-square) |
+| Image | ![GPT Image](https://img.shields.io/badge/GPT%20Image-111827?style=flat-square) ![FLUX](https://img.shields.io/badge/FLUX-ec4899?style=flat-square) ![Seedream](https://img.shields.io/badge/Seedream-10b981?style=flat-square) ![Nano Banana](https://img.shields.io/badge/Nano%20Banana-facc15?style=flat-square&labelColor=111827) |
+| Video | ![Sora](https://img.shields.io/badge/Sora-111827?style=flat-square) ![Veo](https://img.shields.io/badge/Veo-2563eb?style=flat-square) ![Seedance](https://img.shields.io/badge/Seedance-06b6d4?style=flat-square) ![Kling](https://img.shields.io/badge/Kling-4f46e5?style=flat-square) ![Wan](https://img.shields.io/badge/Wan-7c3aed?style=flat-square) |
+| Music | ![Suno](https://img.shields.io/badge/Suno-111827?style=flat-square) ![MiniMax Music](https://img.shields.io/badge/MiniMax%20Music-f97316?style=flat-square) |
+| 3D | ![Meshy](https://img.shields.io/badge/Meshy-84cc16?style=flat-square&labelColor=111827) ![Tripo](https://img.shields.io/badge/Tripo-a78bfa?style=flat-square) |
 
 ## Quickstart
+
+1. Create an account at [poyo.ai](https://poyo.ai).
+2. Create an API key in the [dashboard](https://poyo.ai/dashboard/api-key).
+3. Submit a generation task.
+4. Save the returned `task_id`.
+5. Poll status while testing.
+6. Use `callback_url` for production webhooks.
 
 ```bash
 curl -X POST "https://api.poyo.ai/api/generate/submit" \
@@ -59,13 +48,11 @@ curl -X POST "https://api.poyo.ai/api/generate/submit" \
   }'
 ```
 
-## Why teams use PoYo AI
+## Developer resources
 
-- One API surface for image, video, music, chat, and 3D models
-- Cleaner path from testing to production integration
-- Shared task submission, polling, and webhook patterns
-- One developer-facing workflow for model discovery and API keys
-
----
-
-Built by the PoYo AI team · [poyo.ai](https://poyo.ai) · [support@poyo.ai](mailto:support@poyo.ai)
+- Website: [poyo.ai](https://poyo.ai)
+- API docs: [docs.poyo.ai](https://docs.poyo.ai)
+- Models: [poyo.ai/models](https://poyo.ai/models)
+- API keys: [poyo.ai/dashboard/api-key](https://poyo.ai/dashboard/api-key)
+- Examples: [PoyoAPI/poyo-examples](https://github.com/PoyoAPI/poyo-examples)
+- Support: [support@poyo.ai](mailto:support@poyo.ai)
