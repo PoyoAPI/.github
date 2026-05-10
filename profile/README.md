@@ -35,7 +35,7 @@ PoYo AI gives developers one production API workflow for image, video, music, ch
 6. Use `callback_url` for production webhooks.
 
 ```bash
-export POYO_BASE_URL="https://your-api-base-url"
+export POYO_BASE_URL="https://api.poyo.ai"
 
 curl -X POST "$POYO_BASE_URL/api/generate/submit" \
   -H "Authorization: Bearer $POYO_API_KEY" \
