@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://poyo.ai">
-    <img src="./assets/poyo-api-console.svg" alt="PoYo AI - One API for AI model workflows" />
+    <img src="./assets/header.svg" alt="PoYo AI - One API for AI model workflows" />
   </a>
 </p>
 
