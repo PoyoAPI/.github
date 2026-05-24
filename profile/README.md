@@ -25,6 +25,15 @@ PoYo AI gives developers one production API workflow for image, video, music, ch
 | Music | ![Suno](https://img.shields.io/badge/Suno-111827?style=flat-square) ![MiniMax Music](https://img.shields.io/badge/MiniMax%20Music-f97316?style=flat-square) |
 | 3D | ![Meshy](https://img.shields.io/badge/Meshy-84cc16?style=flat-square&labelColor=111827) ![Tripo](https://img.shields.io/badge/Tripo-a78bfa?style=flat-square) |
 
+## Model API examples
+
+Start with [PoyoAPI/poyo-examples](https://github.com/PoyoAPI/poyo-examples) for the full backend workflow, or use a focused model repo when you already know which model you want to integrate.
+
+| Category | Repository |
+| --- | --- |
+| Image | [gpt-image-2-api](https://github.com/PoyoAPI/gpt-image-2-api) · [nano-banana-2-api](https://github.com/PoyoAPI/nano-banana-2-api) · [nano-banana-pro-api](https://github.com/PoyoAPI/nano-banana-pro-api) |
+| Video | [seedance-2-api](https://github.com/PoyoAPI/seedance-2-api) · [sora-2-official-api](https://github.com/PoyoAPI/sora-2-official-api) · [happy-horse-api](https://github.com/PoyoAPI/happy-horse-api) |
+
 ## Quickstart
 
 1. Create an account at [poyo.ai](https://poyo.ai).
