@@ -13,7 +13,22 @@
 
 ## One API for AI model workflows
 
-PoYo AI gives developers one production API workflow for image, video, music, chat, and 3D model generation. Submit a task, keep the `task_id`, poll status during testing, and use webhooks in production.
+PoYo AI gives developers one production API workflow for image, video, music, chat, and 3D model generation: submit a task, store `task_id`, poll in testing, and use webhooks in production.
+
+Start with [PoyoAPI/poyo-examples](https://github.com/PoyoAPI/poyo-examples) for the full backend-safe workflow, then use focused model repos when you already know which model you want to integrate.
+
+## Main examples repo
+
+Use [PoyoAPI/poyo-examples](https://github.com/PoyoAPI/poyo-examples) when you want the full backend-safe path across cURL, Node.js, Python, Next.js routes, status polling, and production webhooks.
+
+## Focused model repos
+
+Use these when you already know the model you want and need a smaller repo to copy from.
+
+| Category | Repository |
+| --- | --- |
+| Image | [gpt-image-2-api](https://github.com/PoyoAPI/gpt-image-2-api), [nano-banana-2-api](https://github.com/PoyoAPI/nano-banana-2-api), [nano-banana-pro-api](https://github.com/PoyoAPI/nano-banana-pro-api) |
+| Video | [seedance-2-api](https://github.com/PoyoAPI/seedance-2-api), [sora-2-official-api](https://github.com/PoyoAPI/sora-2-official-api), [happy-horse-api](https://github.com/PoyoAPI/happy-horse-api) |
 
 ## Example model families
 
@@ -25,25 +40,17 @@ PoYo AI gives developers one production API workflow for image, video, music, ch
 | Music | ![Suno](https://img.shields.io/badge/Suno-111827?style=flat-square) ![MiniMax Music](https://img.shields.io/badge/MiniMax%20Music-f97316?style=flat-square) |
 | 3D | ![Meshy](https://img.shields.io/badge/Meshy-84cc16?style=flat-square&labelColor=111827) ![Tripo](https://img.shields.io/badge/Tripo-a78bfa?style=flat-square) |
 
-## Model API examples
-
-Start with [PoyoAPI/poyo-examples](https://github.com/PoyoAPI/poyo-examples) for the full backend workflow, or use a focused model repo when you already know which model you want to integrate.
-
-| Category | Repository |
-| --- | --- |
-| Image | [gpt-image-2-api](https://github.com/PoyoAPI/gpt-image-2-api) · [nano-banana-2-api](https://github.com/PoyoAPI/nano-banana-2-api) · [nano-banana-pro-api](https://github.com/PoyoAPI/nano-banana-pro-api) |
-| Video | [seedance-2-api](https://github.com/PoyoAPI/seedance-2-api) · [sora-2-official-api](https://github.com/PoyoAPI/sora-2-official-api) · [happy-horse-api](https://github.com/PoyoAPI/happy-horse-api) |
-
 ## Quickstart
 
 1. Create an account at [poyo.ai](https://poyo.ai).
 2. Create an API key in the [dashboard](https://poyo.ai/dashboard/api-key).
 3. Submit a generation task.
 4. Save the returned `task_id`.
-5. Poll status while testing.
-6. Use `callback_url` for production webhooks.
+5. Poll status in testing.
+6. Use `callback_url` webhooks in production.
 
 ```bash
+export POYO_API_KEY="your-api-key"
 export POYO_BASE_URL="https://api.poyo.ai"
 
 curl -X POST "$POYO_BASE_URL/api/generate/submit" \
