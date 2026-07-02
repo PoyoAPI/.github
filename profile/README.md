@@ -21,6 +21,16 @@ Start with [PoyoAPI/poyo-examples](https://github.com/PoyoAPI/poyo-examples) for
 
 Use [PoyoAPI/poyo-examples](https://github.com/PoyoAPI/poyo-examples) when you want the full backend-safe path across cURL, Node.js, Python, Next.js routes, status polling, and production webhooks.
 
+## Recent model quickstarts
+
+Use these when you are coming from a recent model demo and want the smallest backend-safe request first.
+
+| Model | Start here |
+| --- | --- |
+| Grok Imagine Image | [grok-imagine-image cURL](https://github.com/PoyoAPI/poyo-examples/blob/main/curl/image/grok-imagine-image.md) |
+| Seedance 2.0 Mini | [seedance-2-mini cURL](https://github.com/PoyoAPI/poyo-examples/blob/main/curl/video/seedance-2-mini.md) |
+| Kling 3.0 Turbo | [kling-3-0-turbo cURL](https://github.com/PoyoAPI/poyo-examples/blob/main/curl/video/kling-3-0-turbo.md) |
+
 ## Focused model repos
 
 Use these when you already know the model you want and need a smaller repo to copy from.
