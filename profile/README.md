@@ -40,8 +40,9 @@ Use these when you already know the model you want and need a smaller repo to co
 
 | Category | Repository |
 | --- | --- |
-| Image | [gpt-image-2-api](https://github.com/PoyoAPI/gpt-image-2-api), [nano-banana-2-api](https://github.com/PoyoAPI/nano-banana-2-api), [nano-banana-pro-api](https://github.com/PoyoAPI/nano-banana-pro-api) |
-| Video | [seedance-2-api](https://github.com/PoyoAPI/seedance-2-api), [sora-2-official-api](https://github.com/PoyoAPI/sora-2-official-api), [happy-horse-api](https://github.com/PoyoAPI/happy-horse-api) |
+| Chat | [claude-sonnet-5-api](https://github.com/PoyoAPI/claude-sonnet-5-api) |
+| Image | [gpt-image-2-api](https://github.com/PoyoAPI/gpt-image-2-api), [grok-imagine-image-api](https://github.com/PoyoAPI/grok-imagine-image-api), [nano-banana-2-lite-api](https://github.com/PoyoAPI/nano-banana-2-lite-api), [nano-banana-2-api](https://github.com/PoyoAPI/nano-banana-2-api), [nano-banana-pro-api](https://github.com/PoyoAPI/nano-banana-pro-api) |
+| Video | [omni-flash-api](https://github.com/PoyoAPI/omni-flash-api), [kling-3-0-turbo-api](https://github.com/PoyoAPI/kling-3-0-turbo-api), [seedance-2-api](https://github.com/PoyoAPI/seedance-2-api), [sora-2-official-api](https://github.com/PoyoAPI/sora-2-official-api), [happy-horse-api](https://github.com/PoyoAPI/happy-horse-api) |
 
 ## Example model families
 
