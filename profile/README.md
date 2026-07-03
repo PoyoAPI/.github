@@ -27,6 +27,9 @@ Use these when you are coming from a recent model demo and want the smallest bac
 
 | Model | Start here |
 | --- | --- |
+| Claude Sonnet 5 | [claude-sonnet-5 cURL](https://github.com/PoyoAPI/poyo-examples/blob/main/curl/chat/claude-sonnet-5.md) |
+| Nano Banana 2 Lite | [nano-banana-2-lite cURL](https://github.com/PoyoAPI/poyo-examples/blob/main/curl/image/nano-banana-2-lite.md) |
+| Omni Flash | [omni-flash cURL](https://github.com/PoyoAPI/poyo-examples/blob/main/curl/video/omni-flash.md) |
 | Grok Imagine Image | [grok-imagine-image cURL](https://github.com/PoyoAPI/poyo-examples/blob/main/curl/image/grok-imagine-image.md) |
 | Seedance 2.0 Mini | [seedance-2-mini cURL](https://github.com/PoyoAPI/poyo-examples/blob/main/curl/video/seedance-2-mini.md) |
 | Kling 3.0 Turbo | [kling-3-0-turbo cURL](https://github.com/PoyoAPI/poyo-examples/blob/main/curl/video/kling-3-0-turbo.md) |
