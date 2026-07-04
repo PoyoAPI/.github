@@ -55,9 +55,9 @@ Use these when you already know the model you want and need a smaller repo to co
 
 Use these repos to track high-interest models before runnable examples are available.
 
-| Model | Notes |
-| --- | --- |
-| Seedance 2.5 | [seedance-2-5-api](https://github.com/PoyoAPI/seedance-2-5-api) tracks expected 30-second, 4K-oriented, multimodal-reference, and region-editing workflows before public API availability. |
+| Model | Links | Notes |
+| --- | --- | --- |
+| Seedance 2.5 | [Model page](https://poyo.ai/models/seedance-2-5), [GitHub repo](https://github.com/PoyoAPI/seedance-2-5-api) | Tracks expected 30-second, 4K-oriented, multimodal-reference, and region-editing workflows before public API availability. |
 
 ## Example model families
 
