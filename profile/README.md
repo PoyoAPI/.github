@@ -27,6 +27,12 @@ Use these when you are coming from a recent model demo and want the smallest bac
 
 | Model | Start here |
 | --- | --- |
+| Veo 3.1 Official | [veo-3-1-official-api](https://github.com/PoyoAPI/veo-3-1-official-api) |
+| Gemini 3 | [gemini-3-api](https://github.com/PoyoAPI/gemini-3-api) |
+| DeepSeek V4 | [deepseek-v4-api](https://github.com/PoyoAPI/deepseek-v4-api) |
+| Grok Imagine Video 1.5 | [grok-imagine-video-1-5-api](https://github.com/PoyoAPI/grok-imagine-video-1-5-api) |
+| ElevenLabs v3 TTS | [elevenlabs-v3-tts-api](https://github.com/PoyoAPI/elevenlabs-v3-tts-api) |
+| MiniMax Music 2.6 | [minimax-music-2-6-api](https://github.com/PoyoAPI/minimax-music-2-6-api) |
 | Claude Sonnet 5 | [claude-sonnet-5 cURL](https://github.com/PoyoAPI/poyo-examples/blob/main/curl/chat/claude-sonnet-5.md) |
 | Nano Banana 2 Lite | [nano-banana-2-lite cURL](https://github.com/PoyoAPI/poyo-examples/blob/main/curl/image/nano-banana-2-lite.md) |
 | Omni Flash | [omni-flash cURL](https://github.com/PoyoAPI/poyo-examples/blob/main/curl/video/omni-flash.md) |
@@ -40,9 +46,10 @@ Use these when you already know the model you want and need a smaller repo to co
 
 | Category | Repository |
 | --- | --- |
-| Chat | [claude-sonnet-5-api](https://github.com/PoyoAPI/claude-sonnet-5-api) |
+| Chat | [gemini-3-api](https://github.com/PoyoAPI/gemini-3-api), [deepseek-v4-api](https://github.com/PoyoAPI/deepseek-v4-api), [claude-sonnet-5-api](https://github.com/PoyoAPI/claude-sonnet-5-api) |
 | Image | [gpt-image-2-api](https://github.com/PoyoAPI/gpt-image-2-api), [grok-imagine-image-api](https://github.com/PoyoAPI/grok-imagine-image-api), [nano-banana-2-lite-api](https://github.com/PoyoAPI/nano-banana-2-lite-api), [nano-banana-2-api](https://github.com/PoyoAPI/nano-banana-2-api), [nano-banana-pro-api](https://github.com/PoyoAPI/nano-banana-pro-api) |
-| Video | [omni-flash-api](https://github.com/PoyoAPI/omni-flash-api), [kling-3-0-turbo-api](https://github.com/PoyoAPI/kling-3-0-turbo-api), [seedance-2-api](https://github.com/PoyoAPI/seedance-2-api), [sora-2-official-api](https://github.com/PoyoAPI/sora-2-official-api), [happy-horse-api](https://github.com/PoyoAPI/happy-horse-api) |
+| Video | [veo-3-1-official-api](https://github.com/PoyoAPI/veo-3-1-official-api), [grok-imagine-video-1-5-api](https://github.com/PoyoAPI/grok-imagine-video-1-5-api), [omni-flash-api](https://github.com/PoyoAPI/omni-flash-api), [kling-3-0-turbo-api](https://github.com/PoyoAPI/kling-3-0-turbo-api), [seedance-2-api](https://github.com/PoyoAPI/seedance-2-api), [sora-2-official-api](https://github.com/PoyoAPI/sora-2-official-api), [happy-horse-api](https://github.com/PoyoAPI/happy-horse-api) |
+| Music | [elevenlabs-v3-tts-api](https://github.com/PoyoAPI/elevenlabs-v3-tts-api), [minimax-music-2-6-api](https://github.com/PoyoAPI/minimax-music-2-6-api) |
 
 ## Example model families
 
