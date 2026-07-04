@@ -51,6 +51,14 @@ Use these when you already know the model you want and need a smaller repo to co
 | Video | [veo-3-1-official-api](https://github.com/PoyoAPI/veo-3-1-official-api), [grok-imagine-video-1-5-api](https://github.com/PoyoAPI/grok-imagine-video-1-5-api), [omni-flash-api](https://github.com/PoyoAPI/omni-flash-api), [kling-3-0-turbo-api](https://github.com/PoyoAPI/kling-3-0-turbo-api), [seedance-2-api](https://github.com/PoyoAPI/seedance-2-api), [sora-2-official-api](https://github.com/PoyoAPI/sora-2-official-api), [happy-horse-api](https://github.com/PoyoAPI/happy-horse-api) |
 | Music | [elevenlabs-v3-tts-api](https://github.com/PoyoAPI/elevenlabs-v3-tts-api), [minimax-music-2-6-api](https://github.com/PoyoAPI/minimax-music-2-6-api) |
 
+## Coming soon / watchlist
+
+Use these repos to track high-interest models before runnable examples are available.
+
+| Model | Notes |
+| --- | --- |
+| Seedance 2.5 | [seedance-2-5-api](https://github.com/PoyoAPI/seedance-2-5-api) tracks expected 30-second, 4K-oriented, multimodal-reference, and region-editing workflows before public API availability. |
+
 ## Example model families
 
 | Category | Families |
