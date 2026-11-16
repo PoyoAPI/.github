@@ -27,6 +27,7 @@ Use these when you are coming from a recent model demo and want the smallest bac
 
 | Model | Start here |
 | --- | --- |
+| Seedance 2.5 Flash | [seedance-2-5-flash-api](https://github.com/PoyoAPI/seedance-2-5-flash-api) ([model](https://poyo.ai/models/seedance-2-5-flash)) |
 | Seedance 2.5 | [seedance-2-5-api](https://github.com/PoyoAPI/seedance-2-5-api) ([model](https://poyo.ai/models/seedance-2-5)) |
 | MiniMax H3 / Hailuo 03 | [minimax-h3-api](https://github.com/PoyoAPI/minimax-h3-api) ([model](https://poyo.ai/models/minimax-h3)) |
 | FLUX 3 Video | [flux-3-video-api](https://github.com/PoyoAPI/flux-3-video-api) ([model](https://poyo.ai/models/flux-3)) |
@@ -78,7 +79,7 @@ Use these when you already know the model you want and need a smaller repo to co
 | --- | --- |
 | Chat | [kimi-k3-api](https://github.com/PoyoAPI/kimi-k3-api), [gpt-5-6-api](https://github.com/PoyoAPI/gpt-5-6-api), [claude-opus-5-api](https://github.com/PoyoAPI/claude-opus-5-api), [gpt-5-5-api](https://github.com/PoyoAPI/gpt-5-5-api), [claude-opus-4-8-api](https://github.com/PoyoAPI/claude-opus-4-8-api), [gemini-3-5-flash-api](https://github.com/PoyoAPI/gemini-3-5-flash-api) |
 | Image | [qwen-image-3-api](https://github.com/PoyoAPI/qwen-image-3-api), [seedream-5-0-pro-api](https://github.com/PoyoAPI/seedream-5-0-pro-api), [flux-kontext-api](https://github.com/PoyoAPI/flux-kontext-api), [grok-imagine-image-quality-api](https://github.com/PoyoAPI/grok-imagine-image-quality-api), [flux-2-api](https://github.com/PoyoAPI/flux-2-api) |
-| Video | [seedance-2-5-api](https://github.com/PoyoAPI/seedance-2-5-api), [minimax-h3-api](https://github.com/PoyoAPI/minimax-h3-api), [flux-3-video-api](https://github.com/PoyoAPI/flux-3-video-api), [seedance-2-mini-api](https://github.com/PoyoAPI/seedance-2-mini-api), [wan-2-2-fast-api](https://github.com/PoyoAPI/wan-2-2-fast-api), [hailuo-2-3-api](https://github.com/PoyoAPI/hailuo-2-3-api) |
+| Video | [seedance-2-5-flash-api](https://github.com/PoyoAPI/seedance-2-5-flash-api), [seedance-2-5-api](https://github.com/PoyoAPI/seedance-2-5-api), [minimax-h3-api](https://github.com/PoyoAPI/minimax-h3-api), [flux-3-video-api](https://github.com/PoyoAPI/flux-3-video-api), [seedance-2-mini-api](https://github.com/PoyoAPI/seedance-2-mini-api), [wan-2-2-fast-api](https://github.com/PoyoAPI/wan-2-2-fast-api), [hailuo-2-3-api](https://github.com/PoyoAPI/hailuo-2-3-api) |
 | Music | [gemini-3-1-flash-tts-api](https://github.com/PoyoAPI/gemini-3-1-flash-tts-api) ([model](https://poyo.ai/models/gemini-3-1-flash-tts)), [elevenlabs-music-api](https://github.com/PoyoAPI/elevenlabs-music-api) ([model](https://poyo.ai/models/elevenlabs-music)), [elevenlabs-v3-tts-api](https://github.com/PoyoAPI/elevenlabs-v3-tts-api), [minimax-music-2-6-api](https://github.com/PoyoAPI/minimax-music-2-6-api) |
 | 3D | [tripo-h31-3d-api](https://github.com/PoyoAPI/tripo-h31-3d-api) ([model](https://poyo.ai/models/tripo-h31-3d)), [hunyuan-3d-3-1-api](https://github.com/PoyoAPI/hunyuan-3d-3-1-api) ([model](https://poyo.ai/models/hunyuan-3d-3-1)), [meshy-6-3d-api](https://github.com/PoyoAPI/meshy-6-3d-api) ([model](https://poyo.ai/models/meshy-6-3d)) |
 
