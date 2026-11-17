@@ -9,13 +9,14 @@
   <a href="https://docs.poyo.ai"><img src="https://img.shields.io/badge/API%20docs-docs.poyo.ai-22d3ee?style=for-the-badge" alt="API docs" /></a>
   <a href="https://poyo.ai/models"><img src="https://img.shields.io/badge/Models-poyo.ai%2Fmodels-a78bfa?style=for-the-badge" alt="Models" /></a>
   <a href="https://github.com/PoyoAPI/poyo-examples"><img src="https://img.shields.io/badge/Examples-GitHub-111827?style=for-the-badge&logo=github" alt="Examples" /></a>
+  <a href="https://github.com/PoyoAPI/awesome-poyo-api"><img src="https://img.shields.io/badge/Index-awesome--poyo--api-f59e0b?style=for-the-badge&logo=github" alt="Awesome PoYo API index" /></a>
 </p>
 
 ## One API for AI model workflows
 
 PoYo AI gives developers one production API workflow for image, video, music, chat, and 3D model generation: submit a task, store `task_id`, poll in testing, and use webhooks in production.
 
-Start with [PoyoAPI/poyo-examples](https://github.com/PoyoAPI/poyo-examples) for the full backend-safe workflow, then use focused model repos when you already know which model you want to integrate.
+Start with [PoyoAPI/poyo-examples](https://github.com/PoyoAPI/poyo-examples) for the full backend-safe workflow, then use focused model repos when you already know which model you want to integrate. Browse every repo, prompt library, and tool in [PoyoAPI/awesome-poyo-api](https://github.com/PoyoAPI/awesome-poyo-api).
 
 ## Main examples repo
 
@@ -27,6 +28,11 @@ Use these when you are coming from a recent model demo and want the smallest bac
 
 | Model | Start here |
 | --- | --- |
+| Kling 4.0 | [Kling-4.0-API](https://github.com/PoyoAPI/Kling-4.0-API) ([model](https://poyo.ai/models/kling-4-0)) |
+| GPT Image 2.6 | [GPT-Image-2.6-API](https://github.com/PoyoAPI/GPT-Image-2.6-API) ([model](https://poyo.ai/models/gpt-image-2-6)) |
+| Seedream 5.5 | [Seedream-5.5-API](https://github.com/PoyoAPI/Seedream-5.5-API) ([model](https://poyo.ai/models/seedream-5-5)) |
+| MiniMax H3 Image | [MiniMax-H3-Image-API](https://github.com/PoyoAPI/MiniMax-H3-Image-API) ([model](https://poyo.ai/models/minimax-h3-image)) |
+| Gemini 4 Carbon | [Gemini-4-Carbon-API](https://github.com/PoyoAPI/Gemini-4-Carbon-API) ([model](https://poyo.ai/models/gemini-4-carbon)) |
 | Seedance 2.5 Flash | [seedance-2-5-flash-api](https://github.com/PoyoAPI/Seedance-2.5-Flash-API) ([model](https://poyo.ai/models/seedance-2-5-flash)) |
 | Seedance 2.5 | [seedance-2-5-api](https://github.com/PoyoAPI/Seedance-2.5-API) ([model](https://poyo.ai/models/seedance-2-5)) |
 | MiniMax H3 / Hailuo 03 | [minimax-h3-api](https://github.com/PoyoAPI/MiniMax-H3-API) ([model](https://poyo.ai/models/minimax-h3)) |
@@ -77,9 +83,9 @@ Use these when you already know the model you want and need a smaller repo to co
 
 | Category | Repository |
 | --- | --- |
-| Chat | [kimi-k3-api](https://github.com/PoyoAPI/Kimi-K3-API), [gpt-5-6-api](https://github.com/PoyoAPI/GPT-5.6-API), [claude-opus-5-api](https://github.com/PoyoAPI/Claude-Opus-5-API), [gpt-5-5-api](https://github.com/PoyoAPI/GPT-5.5-API), [claude-opus-4-8-api](https://github.com/PoyoAPI/Claude-Opus-4.8-API), [gemini-3-5-flash-api](https://github.com/PoyoAPI/Gemini-3.5-Flash-API) |
-| Image | [qwen-image-3-api](https://github.com/PoyoAPI/Qwen-Image-3-API), [seedream-5-0-pro-api](https://github.com/PoyoAPI/Seedream-5.0-Pro-API), [flux-kontext-api](https://github.com/PoyoAPI/Flux-Kontext-API), [grok-imagine-image-quality-api](https://github.com/PoyoAPI/Grok-Imagine-Image-Quality-API), [flux-2-api](https://github.com/PoyoAPI/FLUX.2-API) |
-| Video | [seedance-2-5-flash-api](https://github.com/PoyoAPI/Seedance-2.5-Flash-API), [seedance-2-5-api](https://github.com/PoyoAPI/Seedance-2.5-API), [minimax-h3-api](https://github.com/PoyoAPI/MiniMax-H3-API), [flux-3-video-api](https://github.com/PoyoAPI/FLUX-3-Video-API), [seedance-2-mini-api](https://github.com/PoyoAPI/Seedance-2.0-Mini-API), [wan-2-2-fast-api](https://github.com/PoyoAPI/Wan-2.2-Fast-API), [hailuo-2-3-api](https://github.com/PoyoAPI/Hailuo-2.3-API) |
+| Chat | [Gemini-4-Carbon-API](https://github.com/PoyoAPI/Gemini-4-Carbon-API), [kimi-k3-api](https://github.com/PoyoAPI/Kimi-K3-API), [gpt-5-6-api](https://github.com/PoyoAPI/GPT-5.6-API), [claude-opus-5-api](https://github.com/PoyoAPI/Claude-Opus-5-API), [gpt-5-5-api](https://github.com/PoyoAPI/GPT-5.5-API), [claude-opus-4-8-api](https://github.com/PoyoAPI/Claude-Opus-4.8-API), [gemini-3-5-flash-api](https://github.com/PoyoAPI/Gemini-3.5-Flash-API) |
+| Image | [GPT-Image-2.6-API](https://github.com/PoyoAPI/GPT-Image-2.6-API), [Seedream-5.5-API](https://github.com/PoyoAPI/Seedream-5.5-API), [MiniMax-H3-Image-API](https://github.com/PoyoAPI/MiniMax-H3-Image-API), [qwen-image-3-api](https://github.com/PoyoAPI/Qwen-Image-3-API), [seedream-5-0-pro-api](https://github.com/PoyoAPI/Seedream-5.0-Pro-API), [flux-kontext-api](https://github.com/PoyoAPI/Flux-Kontext-API), [grok-imagine-image-quality-api](https://github.com/PoyoAPI/Grok-Imagine-Image-Quality-API), [flux-2-api](https://github.com/PoyoAPI/FLUX.2-API) |
+| Video | [Kling-4.0-API](https://github.com/PoyoAPI/Kling-4.0-API), [awesome-seedance-2.5-flash-api-prompts](https://github.com/PoyoAPI/awesome-seedance-2.5-flash-api-prompts) (prompts), [seedance-2-5-flash-api](https://github.com/PoyoAPI/Seedance-2.5-Flash-API), [seedance-2-5-api](https://github.com/PoyoAPI/Seedance-2.5-API), [minimax-h3-api](https://github.com/PoyoAPI/MiniMax-H3-API), [flux-3-video-api](https://github.com/PoyoAPI/FLUX-3-Video-API), [seedance-2-mini-api](https://github.com/PoyoAPI/Seedance-2.0-Mini-API), [wan-2-2-fast-api](https://github.com/PoyoAPI/Wan-2.2-Fast-API), [hailuo-2-3-api](https://github.com/PoyoAPI/Hailuo-2.3-API) |
 | Music | [gemini-3-1-flash-tts-api](https://github.com/PoyoAPI/Gemini-3.1-Flash-TTS-API) ([model](https://poyo.ai/models/gemini-3-1-flash-tts)), [elevenlabs-music-api](https://github.com/PoyoAPI/ElevenLabs-Music-API) ([model](https://poyo.ai/models/elevenlabs-music)), [elevenlabs-v3-tts-api](https://github.com/PoyoAPI/ElevenLabs-V3-TTS-API), [minimax-music-2-6-api](https://github.com/PoyoAPI/MiniMax-Music-2.6-API) |
 | 3D | [tripo-h31-3d-api](https://github.com/PoyoAPI/Tripo3D-H3.1-API) ([model](https://poyo.ai/models/tripo-h31-3d)), [hunyuan-3d-3-1-api](https://github.com/PoyoAPI/Hunyuan-3D-3.1-API) ([model](https://poyo.ai/models/hunyuan-3d-3-1)), [meshy-6-3d-api](https://github.com/PoyoAPI/Meshy-6-API) ([model](https://poyo.ai/models/meshy-6-3d)) |
 
@@ -128,4 +134,5 @@ curl -X POST "$POYO_BASE_URL/api/generate/submit" \
 - Models: [poyo.ai/models](https://poyo.ai/models)
 - API keys: [poyo.ai/dashboard/api-key](https://poyo.ai/dashboard/api-key)
 - Examples: [PoyoAPI/poyo-examples](https://github.com/PoyoAPI/poyo-examples)
+- Index of all repos: [PoyoAPI/awesome-poyo-api](https://github.com/PoyoAPI/awesome-poyo-api)
 - Support: [support@poyo.ai](mailto:support@poyo.ai)
